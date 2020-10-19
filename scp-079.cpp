@@ -1,13 +1,17 @@
 #include <iostream>
 #include "windows.h"
+#include <cstdlib>
+#include "lvl1.h"
 
 using namespace std;
 
 int main(){
-	cout << "Exidy Inc. 1978" << endl;
-	Sleep(5000);
-	cout << "OS starts" << endl;
-	Sleep(10000);
-	cout << "All OK!" << endl;
+	int ch;
+	cout << "[1]SCP-079" << endl;
+	cout << "[0]Exit" << endl;
+	cout << ":";
+	cin >> ch;
+	if (ch == 1){system("clear"); lvl1();} // поменяй на cls
+	else if (ch == 0){exit(1);}
 }
 
