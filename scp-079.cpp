@@ -11,7 +11,7 @@ int main(){
 	cout << "[0]Exit" << endl;
 	cout << ":";
 	cin >> ch;
-	if (ch == 1){system("clear"); lvl1();} // поменяй на cls
+	if (ch == 1){system("clear"); lvl1();} // поменяй на cls если ты на винде ЪУЪ
 	else if (ch == 0){exit(1);}
 }
 

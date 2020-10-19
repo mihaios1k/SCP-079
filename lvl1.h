@@ -6,7 +6,7 @@ void lvl1(){
 	Sleep(2000);
 	cout << "OS..." << endl;
 	Sleep(5000);
-	system("clear");  // поменяй на cls
+	system("clear");  // поменяй на cls есди ты винда ЪУЪ
 	cout << "Exidy 1978" << endl;
 	cout << "OS";
 	SetConsoleTextAttribute(hOUTPUT,FOREGROUND_RED   | FOREGROUND_INTENSITY); // Делаем красный цвет
